@@ -1,0 +1,9 @@
+# install flyctl if you haven’t already
+curl -L https://fly.io/install.sh | sh
+
+# login
+flyctl auth login
+
+# in your repo folder
+flyctl status
+flyctl logs
